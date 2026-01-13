@@ -22,7 +22,8 @@ services:
     #
     # You can define additional environment variables as needed.
     envVars:
-      # Generates a base64-encoded key for
+      - key: WEBHOOK_URL
+        value: n8n-service-butd.onrender.com/
       # encrypting credentials in n8n
       #
       # Do not modify this value after it's generated!
